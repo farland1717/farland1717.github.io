@@ -58,13 +58,21 @@ header > ul > li > a {
     font-size: 32px;
 }
 
-main > div {
+.full {
     display: flex;
     width: 100vw;
     height: 100vh;
 }
+
 #eyeCatch > div {
     width: 80vw;
     margin: auto;
     text-align: center;
+}
+
+#design {
+    width: 30vw;
+}
+#social {
+    height: 30vw;
 }
