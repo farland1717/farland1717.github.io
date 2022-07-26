@@ -1,4 +1,12 @@
+:root {
+    --farland-green: #18978F;
+    --farland-green2: #54BAB9;
+    --farland-white: #F7ECDE;
+}
+
 body {
     margin: 0;
     font-family: "Noto Sans JP", "ヒラギノ角ゴ", "BIZ UDPGothic", sans-serif;
+    background-color: var(--farland-green);
+    color: ver(--farland-white);
 }
