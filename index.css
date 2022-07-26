@@ -64,7 +64,7 @@ header > ul > li > a {
     height: 100vh;
 }
 
-#eyeCatch > div {
+.full > div {
     width: 80vw;
     margin: auto;
     text-align: center;
