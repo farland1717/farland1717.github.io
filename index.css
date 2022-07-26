@@ -58,7 +58,7 @@ header > ul > li > a {
     font-size: 32px;
 }
 
-#eyeCatch {
+main > div {
     display: flex;
     width: 100vw;
     height: 100vh;
