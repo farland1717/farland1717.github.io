@@ -4,9 +4,67 @@
     --farland-white: #F7ECDE;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: "Noto Sans JP", "ヒラギノ角ゴ", "BIZ UDPGothic", sans-serif;
     background-color: var(--farland-green);
-    color: ver(--farland-white);
+    color: var(--farland-white);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    background-color: var(--farland-green) 10%;
+    backdrop-filter: blur(10px);
+}
+header > * {
+    margin: 0;
+}
+header > ul {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+header > ul > li {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header > ul > li > a {
+    color: var(--farland-white);
+    text-decoration: none;
+}
+#headerTitle {
+    display: block;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+}
+
+#eyeCatch {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+#eyeCatch > div {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
 }
