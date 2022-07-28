@@ -53,6 +53,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: "Noto Sans JP", "ヒラギノ角ゴ", "BIZ UDPGothic", sans-serif;
@@ -86,6 +90,11 @@ header {
 }
 header > * {
     margin: 0;
+}
+header > h1 > a {
+    margin: 0;
+    color: var(--farland-white);
+    text-decoration: none;
 }
 header > ul {
     display: block;
