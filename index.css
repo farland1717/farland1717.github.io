@@ -181,6 +181,10 @@ header > ul > li > a {
     height: 100px;
     padding: 20px;
     border-radius: 120px;
+    transition: 0.7s;
+}
+#linksGround > div > a > img:hover {
+    box-shadow: var(--farland-white) 0px 0px 50px;
 }
 #twitter {
     background-color: #11abff;
