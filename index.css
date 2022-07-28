@@ -131,7 +131,7 @@ header > ul > li > a {
     text-align: left;
 }
 
-#designs,#socials {
+#designs, #socials {
     display: flex;
     width: 80vw;
 }
@@ -142,6 +142,7 @@ header > ul > li > a {
 
 #designImg {
     width: 30vw;
+    height: 20vw;
     animation: first-rotate 60s infinite;
 }
 #socialImg {
