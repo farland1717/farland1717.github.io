@@ -64,6 +64,13 @@ body {
     color: var(--farland-white);
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+}
+
 h1 {
     font-size: 64px;
 }
@@ -139,6 +146,7 @@ header > ul > li > a {
     display: flex;
     width: 100vw;
     height: 100vh;
+    scroll-snap-align: center;
 }
 .full > div {
     width: 80vw;
